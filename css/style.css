@@ -13,6 +13,56 @@
     --secondary: #007720; /* New color */
 }
 
+.landscaping-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.landscaping-section .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+.landscaping-section .section-subtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.landscaping-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.landscaping-section ul li {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.landscaping-section img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.carousel-logo {
+    width: 20%; /* Adjust the size as needed */
+    max-width: 10%; /* Ensures responsiveness */
+    height: auto; /* Maintains aspect ratio */
+    display: block; 
+    margin: 0 auto 15px; /* Centers the logo and adds spacing */
+    object-fit: contain; /* Ensures the whole logo is visible */
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
